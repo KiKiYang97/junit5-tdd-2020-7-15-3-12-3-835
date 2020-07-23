@@ -2,6 +2,9 @@ package junit5.tdd;
 
 public class FizzBuzzWhizz {
     public String play(int number) {
+        if (number %15 == 0){
+            return "fizzbuzz";
+        }
         if (number % 3 == 0) {
            return "fizz";
         }
@@ -11,6 +14,7 @@ public class FizzBuzzWhizz {
         if (number % 7 == 0) {
             return "whizz";
         }
+
         return String.valueOf(number);
     }
 }

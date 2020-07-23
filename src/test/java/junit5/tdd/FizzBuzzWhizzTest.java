@@ -70,4 +70,5 @@ public class FizzBuzzWhizzTest {
         assertEquals("fizzbuzz",actual);
     }
 
+
 }
