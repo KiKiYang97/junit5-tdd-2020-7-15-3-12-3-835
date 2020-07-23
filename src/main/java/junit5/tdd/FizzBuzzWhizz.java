@@ -2,7 +2,10 @@ package junit5.tdd;
 
 public class FizzBuzzWhizz {
     public String play(int number) {
-        if (number %15 == 0){
+        if (number % 21 == 0){
+            return "fizzwhizz";
+        }
+        if (number % 15 == 0){
             return "fizzbuzz";
         }
         if (number % 3 == 0) {
